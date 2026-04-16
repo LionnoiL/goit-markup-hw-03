@@ -21,3 +21,43 @@
   color: #434455;
   font-style: normal;
 }
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 0px;
+  height: 72px;
+}
+
+.header nav ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.header nav li {
+  align-self: flex-start;
+}
+
+.header address ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.header .logo {
+  margin-right: 0;
+}
+
+.header .logo_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 76px;
+}
