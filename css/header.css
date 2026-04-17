@@ -1,5 +1,7 @@
 .header a {
   color: #2e2f42;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .header nav a {
@@ -21,16 +23,17 @@
   color: #434455;
   font-style: normal;
 }
-.header {
+
+.header-container {
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
   gap: 0px;
-  height: 72px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
-.header nav ul {
+.header-container nav ul {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -38,11 +41,11 @@
   gap: 40px;
 }
 
-.header nav li {
+.header-container nav li {
   align-self: flex-start;
 }
 
-.header address ul {
+.header-container address ul {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -50,11 +53,11 @@
   gap: 40px;
 }
 
-.header .logo {
+.header-container .logo {
   margin-right: 0;
 }
 
-.header .logo_nav {
+.header-container .logo-nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
