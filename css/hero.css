@@ -1,16 +1,29 @@
 .hero {
   background-color: #2e2f42;
   line-height: 1.07;
-  height: 600px;
+}
+
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 188px;
 }
 
 .hero button {
   color: #ffffff;
   background-color: #4d5ae5;
   font-weight: 500;
+  padding: 16px 32px;
+  align-self: center;
+  margin-top: 48px;
+  margin-bottom: 188px;
 }
 
 .hero button:hover,
 .hero button:focus {
   background-color: #404bbf;
+}
+
+.hero h1 {
+  padding: 0 331px;
 }
