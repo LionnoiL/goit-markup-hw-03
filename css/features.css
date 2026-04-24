@@ -1,7 +1,3 @@
-.features h2 {
-  display: none;
-}
-
 .features > .container > ul {
   display: flex;
   flex-direction: row;
