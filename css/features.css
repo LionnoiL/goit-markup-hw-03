@@ -1,1 +1,26 @@
+.features h2 {
+  display: none;
+}
 
+.features > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 120px 0 120px 0;
+  max-width: 1158px;
+}
+
+.features > ul > li {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+  width: 264px;
+}
+
+.features-title {
+  color: #2e2f42;
+}
