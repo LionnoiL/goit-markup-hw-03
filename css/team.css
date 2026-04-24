@@ -1,6 +1,5 @@
 .team {
   background-color: #f4f4fd;
-  gap: 72px;
 }
 
 .team h2,
@@ -18,7 +17,6 @@
   display: flex;
   justify-content: center;
   gap: 24px;
-  max-width: 1158px;
 }
 
 .team-card {
@@ -35,5 +33,16 @@
   align-items: center;
   padding: 32px 16px;
   gap: 8px;
-  border: 1px solid #222020;
+}
+
+.features .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1158px;
+  padding: 0 15px;
+}
+
+.team .title {
+  margin-bottom: 72px;
 }

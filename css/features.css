@@ -2,23 +2,28 @@
   display: none;
 }
 
-.features > ul {
+.features > .container > ul {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 24px;
-  max-width: 1158px;
 }
 
-.features > ul > li {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  gap: 8px;
+.features > .container > ul > li {
+  display: block;
 }
 
 .features-title {
   color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.features .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 1158px;
+  padding: 0 15px;
 }
