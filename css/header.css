@@ -1,7 +1,7 @@
 .header a {
   color: #2e2f42;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header nav a {
@@ -52,16 +52,12 @@
   margin-right: 0;
 }
 
-.header .logo-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: row;
-  gap: 76px;
-}
-
 .header .container {
   flex-direction: row;
-  justify-content: space-around;
-  gap: 0px;
+  gap: 76px;
+  margin: 0 auto;
+}
+
+.header address {
+  margin-left: auto;
 }
