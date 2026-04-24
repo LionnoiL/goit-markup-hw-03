@@ -2,6 +2,41 @@
   text-align: center;
 }
 
-.portfolio-card {
+.portfolio .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1158px;
+  padding: 0 15px;
+}
+
+.portfolio-card > li {
   background-color: #ffffff;
+}
+
+.portfolio ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  margin-top: 72px;
+}
+
+.portfolio img {
+  width: 360px;
+  height: 300px;
+}
+
+.portfolio-card .card-title {
+  padding: 32px 16px;
+}
+
+.portfolio-card .card-title p {
+  margin-top: 8px;
+  color: #434455;
+}
+
+.portfolio-card .card-title h3 {
+  color: #2e2f42;
 }
