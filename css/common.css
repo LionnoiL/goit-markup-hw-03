@@ -8,7 +8,6 @@ body {
   justify-content: center;
   flex-direction: column;
   align-self: center;
-  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -103,4 +102,5 @@ ul {
   align-items: center;
   width: 1158px;
   padding: 0 15px;
+  margin: 0 auto;
 }

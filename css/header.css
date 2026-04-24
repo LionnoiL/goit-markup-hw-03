@@ -55,7 +55,6 @@
 .header .container {
   flex-direction: row;
   gap: 76px;
-  margin: 0 auto;
 }
 
 .header address {

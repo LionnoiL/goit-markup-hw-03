@@ -5,6 +5,8 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer p {
@@ -20,12 +22,7 @@
 }
 
 .footer .container {
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
-  width: 1158px;
-  padding: 0 15px;
-  margin: 100px 0;
 }
 
 .footer .container p {
