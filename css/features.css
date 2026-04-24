@@ -8,7 +8,6 @@
   align-items: center;
   justify-content: center;
   gap: 24px;
-  padding: 120px 0 120px 0;
   max-width: 1158px;
 }
 
@@ -18,7 +17,6 @@
   align-items: start;
   justify-content: center;
   gap: 8px;
-  width: 264px;
 }
 
 .features-title {
