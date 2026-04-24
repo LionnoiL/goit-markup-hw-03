@@ -25,10 +25,15 @@
   background-color: #ffffff;
 }
 
+.team-card img {
+  display: block;
+}
+
 .team-card-title {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 32px 16px;
   gap: 8px;
+  border: 1px solid #222020;
 }
