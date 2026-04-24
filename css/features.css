@@ -8,6 +8,7 @@
 
 .features > .container > ul > li {
   display: block;
+  width: 264px;
 }
 
 .features-title {

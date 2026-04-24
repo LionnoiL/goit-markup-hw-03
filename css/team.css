@@ -21,6 +21,7 @@
 
 .team-card {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
 }
 
 .team-card img {
@@ -35,12 +36,9 @@
   gap: 8px;
 }
 
-.features .container {
-  display: flex;
+.team .container {
   flex-direction: column;
   align-items: center;
-  width: 1158px;
-  padding: 0 15px;
 }
 
 .team .title {

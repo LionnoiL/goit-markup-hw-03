@@ -6,6 +6,10 @@ body {
   background-color: #fff;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -71,10 +75,6 @@ ul {
   padding: 0;
 }
 
-body > .main-container {
-  width: 1440px;
-}
-
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -95,4 +95,12 @@ body > .main-container {
   clip: rect(0 0 0 0);
   clip-path: inset(100%);
   margin: -1px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1158px;
+  padding: 0 15px;
 }
